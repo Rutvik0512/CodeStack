@@ -1,0 +1,13 @@
+Conventional Commits: https://www.conventionalcommits.org/en/v1.0.0/
+
+Visualizing Git: https://git-school.github.io/visualizing-git/
+
+Git Best Practices (for Beginners): https://www.freecodecamp.org/news/how-to-use-git-best-practices-for-beginners/
+
+Solutions to Difficult Scenarios While Using Git: https://dev.to/pranav016/rare-useful-git-commands-summarized-solution-to-difficult-scenarios-while-using-git-3m4i
+
+Official Git Reference: https://git-scm.com/docs
+
+Official GitHub tutorial: https://docs.github.com/en/get-started/quickstart/hello-world
+
+Brief Overview of Git Internals (Advanced): https://www.freecodecamp.org/news/git-internals-objects-branches-create-repo/

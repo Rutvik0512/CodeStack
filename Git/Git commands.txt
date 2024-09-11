@@ -1,0 +1,82 @@
+
+----------------------------------------------------
+** Git Normal Commands **
+-----------------------------------------------------
+
+git status - Defines the changes made 
+
+git add - Adds to the Staging area 
+
+git rm --cached <file name> - Send back to workspace
+
+git restore <file name> - Replaces the file from staging area to working space
+
+git -a -m "<comment>" - It'll directly commit and skips the staging area
+
+git diff - Shows the code difference between the working area and staging area
+
+git diff <checksum / Branch name > HEAD - Shows the changes made between two commits
+
+git checkout  
+
+Git commit --amend -m "<commit>" - Updates the commit message
+
+Git commit --amend -m --no-edit - Replaces the original commit with the updated commit without changing the comment
+
+Git tag "version" <checksum> - Adds a tag to the commit-ID denoting the version
+
+Git reflog <branch_name> - Shows all the changes made to the branch
+
+Git reset [--hard | HEAD~<number>] 
+
+Git stash [apply | pop | list | show] - Temporary changes that need not be committed can be stored in temporary location
+
+Git revert <checksum>
+
+----------------------------------------------------
+** Git Branching Commands **
+----------------------------------------------------
+
+Git branch - Shows all the branches present
+
+Git branch <branch_name> - Creates a new branch
+
+Git switch <branch_name> - Switches to the named branch
+
+Git switch -c <branch_name> - Creates and switches to new branch
+
+Git branch -d <branch_name> - Deletes the branch
+ 
+
+----------------------------------------------------
+** Git Branch Merging Commands **
+----------------------------------------------------
+
+Git merge <dest> - Merges the branch from source to working directory
+
+Git rebase -i <dest> - Rebases with interactive session.
+
+Git rebase --continue - Is to be made after the conflict is resolved
+
+Git cherry-pick <checksum of commit>..<checksum of last commit> - Rebases only the commits mentioned.
+
+----------------------------------------------------
+** Git Remote Commands **
+----------------------------------------------------
+
+Git remote add <repo-name> <repo-link> - Will add remote repository 
+
+Git push -u origin main - Push to the remote repository and the branch to which it has to
+
+Git remote rename <name> <modified_name>
+
+Git fetch origin - Pulls all the changes made at the remote to local, then merge
+
+Git pull origin - Pulls and merges then modify the conflicts
+
+Git switch -c <remote_branch> --track - Creates a branch of same name and tracks the remote_branch, followed by switch
+
+Git branch --set-upstream-to=<remote>/<branch> patch
+
+
+
